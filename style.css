@@ -1,0 +1,177 @@
+/* Base styles */
+body {
+    background-color:darkblue;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+}
+
+.active {
+    color: grey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 13px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: grey;
+    transition: 0.4s;
+}
+
+.btn {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        padding: 10px 0;
+    }
+}
+
+/* Content */
+.text {
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.text h1 {
+    font-size: 30px;
+}
+
+.text p {
+    font-size: 20px;
+    line-height:30px;
+}
+
+.Sign {
+    background-color: #fff;
+    padding: 30px;
+    color: grey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+}
+
+.Sign h1 {
+    color: blue;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+}
+
+.col {
+    margin: 10px;
+    padding: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+p {
+    color: #FFFFF7;
+}
+
+.Sign a {
+    color:aqua;
+}
+
+
+.Sign p {
+    color: grey;
+}
+
+.inp input,
+.inp button {
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+input[type=checkbox] {
+    background-color: aquamarine;
+}
+
+input[type=checkbox]:checked {
+    background-color: aquamarine;
+    color: black;
+}
+
+.div-custom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.div-customer-line {
+    width: 100px;
+    height: 1px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Sign_btn {
+    background-color: blue;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Sign_twitter {
+    background-color:#0077c5;
+    color: #fff;
+}
